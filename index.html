@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студентське портфоліо | Христина Лега</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Перейти до основного вмісту</a>
+
+<header class="header">
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#profile" class="nav__link">Про мене</a></li>
+            <li class="nav__item"><a href="#hobbies" class="nav__link">Хобі</a></li>
+            <li class="nav__item"><a href="#facts" class="nav__link">Факти</a></li>
+            <li class="nav__item"><a href="#goals" class="nav__link">Цілі</a></li>
+            <li class="nav__item"><a href="#subjects" class="nav__link">Предмети</a></li>
+            <li class="nav__item"><a href="#projects" class="nav__link">Проєкти</a></li>
+            <li class="nav__item"><a href="#quotes" class="nav__link">Цитати</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Навички</a></li>
+            <li class="nav__item"><a href="#languages" class="nav__link">Мови</a></li>
+            <li class="nav__item"><a href="#schedule" class="nav__link">Розклад</a></li>
+            <li class="nav__item"><a href="#books" class="nav__link">Книги</a></li>
+            <li class="nav__item"><a href="#movies" class="nav__link">Фільми</a></li>
+            <li class="nav__item"><a href="#music" class="nav__link">Музика</a></li>
+            <li class="nav__item"><a href="#sports" class="nav__link">Спорт</a></li>
+            <li class="nav__item"><a href="#contacts" class="nav__link">Контакти</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="main-content">
+    <!-- 1. ПРО МЕНЕ -->
+    <section id="profile" class="profile">
+        <h1>Христина Лега</h1>
+        <figure class="profile__figure">
+            <picture>
+                <source media="(min-width: 768px)" srcset="my_photo.jpg">
+                <img src="my_photo.jpg" alt="Фото профілю Христини Леги" class="profile__img" width="150" height="150">
+            </picture>
+            <figcaption class="profile__caption">Студентка 3-го курсу | Прикладна математика, ЛНУ ім. Івана Франка</figcaption>
+        </figure>
+        <p>Я студентка 3-го курсу. Займаюся веброзробкою та програмуванням (C# / .NET / C++).</p>
+
+        <div class="education-block" style="margin-top: 1rem; text-align: left;">
+            <h3>Освіта</h3>
+            <ul class="list-custom">
+                <li class="list-custom__item">
+                    <strong>Середня загальноосвітня школа № 54 (м. Львів)</strong> — 2012-2023 рр.
+                </li>
+                <li class="list-custom__item">
+                    <strong>Львівський національний університет імені Івана Франка</strong> — Прикладна математика (3 курс)
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 2. ХОБІ -->
+    <section id="hobbies" class="hobbies-section">
+        <h2>Хобі</h2>
+        <div class="grid-container">
+            <article class="card">
+                <figure class="card__media">
+                    <img src="images.reading.jpg" alt="Читання книг" class="card__img" loading="lazy">
+                </figure>
+                <div class="card__content">
+                    <span class="card__badge">Книги</span>
+                    <h3>📚 Читання</h3>
+                    <p>Читаю художню та технічну літературу.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__media">
+                    <img src="image.programming.jpg" alt="Програмування" class="card__img" loading="lazy">
+                </figure>
+                <div class="card__content">
+                    <span class="card__badge">Tech</span>
+                    <h3>💻 Програмування</h3>
+                    <p>Розробка власних pet-проєктів, вивчення нових технологій та вирішення алгоритмічних задач.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__media">
+                    <img src="image.gym.jpg" alt="Тренування в спортзалі" class="card__img" loading="lazy">
+                </figure>
+                <div class="card__content">
+                    <span class="card__badge">Спорт</span>
+                    <h3>🏋️‍♂️ Спортзал &amp; Фітнес</h3>
+                    <p>Регулярні силові тренування в залі, розвиток самодисципліни та витривалості.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- 3. ЦІКАВІ ФАКТИ -->
+    <section id="facts" class="facts-section">
+        <h2>Цікаві факти</h2>
+        <div class="cards-grid">
+            <article class="card">
+                <figure class="card__media">
+                    <img src="work.jpg" alt="Репетиторство з математики" class="card__img" loading="lazy">
+                </figure>
+                <div class="card__content">
+                    <span class="card__badge">Навчання</span>
+                    <h3>📐 Репетиторство</h3>
+                    <p>Працюю приватним репетитором шкільної та вищої математики, допомагаю студентам і школярам зрозуміти складні теми.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__media">
+                    <img src="cat.jpg" alt="Кішка Мія" class="card__img" loading="lazy">
+                </figure>
+                <div class="card__content">
+                    <span class="card__badge">Домашні улюбленці</span>
+                    <h3>🐾 Кішка Мія</h3>
+                    <p>Маю чудову кішку на ім'я Мія.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__media">
+                    <img src="drive.jpg" alt="Посвідчення водія" class="card__img" loading="lazy">
+                </figure>
+                <div class="card__content">
+                    <span class="card__badge">Досягнення</span>
+                    <h3>🚘 Посвідчення водія</h3>
+                    <p>Нещодавно успішно склала іспити та отримала посвідчення водія.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- 4. ЦІЛІ -->
+    <section id="goals">
+        <h2>Цілі на найближчий рік</h2>
+        <div class="skills-wrapper">
+            <fieldset class="skills-block">
+                <legend class="skills-block__legend">Статус досягнення цілей</legend>
+
+                <label for="goal-job">Знайти роботу в IT (Junior Software Engineer C# / .NET / C++ / Web)</label>
+                <progress id="goal-job" value="70" max="100">70%</progress>
+
+                <label for="goal-auto">Купити власний автомобіль</label>
+                <progress id="goal-auto" value="50" max="100">50%</progress>
+
+                <label for="goal-canada">Подорож до Канади (Ніагарський водоспад)</label>
+                <progress id="goal-canada" value="35" max="100">35%</progress>
+            </fieldset>
+        </div>
+    </section>
+
+    <!-- 5. ПРЕДМЕТИ -->
+    <section id="subjects" class="subjects-section">
+        <h2>Улюблені навчальні предмети</h2>
+        <ul class="list-custom">
+            <li class="list-custom__item">
+                <strong>Web-програмування:</strong> Дає можливість миттєво бачити результат своєї роботи та створювати зручні, інтерактивні інтерфейси.
+            </li>
+            <li class="list-custom__item">
+                <strong>Математичний аналіз:</strong> Розвиває глибоке логічне мислення, алгоритмічний підхід та математичні основи обчислень.
+            </li>
+            <li class="list-custom__item">
+                <strong>Програмне забезпечення:</strong> Дозволяє вивчити архітектуру побудови складних систем, шаблони проектування та якісний код.
+            </li>
+            <li class="list-custom__item">
+                <strong>Бази даних та інформаційні системи:</strong> Навчає правильно структурувати, зберігати й обробляти великі обсяги даних.
+            </li>
+        </ul>
+    </section>
+
+    <!-- 6. ПРОЄКТИ (ДОДАНИЙ РОЗДІЛ ДЛЯ 15+) -->
+    <section id="projects" class="projects-section">
+        <h2>Невдовзі / Проєкти</h2>
+        <div class="cards-grid">
+            <article class="card">
+                <div class="card__content">
+                    <span class="card__badge">C# / .NET</span>
+                    <h3>Система бронювання квитків</h3>
+                    <p>Консольний проєкт з архітектурою репозиторія, кастомними серіалізаторами та юніт-тестами.</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card__content">
+                    <span class="card__badge">Python &amp; SQL</span>
+                    <h3>Аналіз даних у PySpark</h3>
+                    <p>Обробка JSON-датасетів та побудова реляційних схем бази даних.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- 7. ЦИТАТИ -->
+    <section id="quotes" class="quotes-section">
+        <h2>Улюблені цитати</h2>
+        <div class="quotes-container">
+            <blockquote class="quote-card">
+                <p class="quote-card__text">«Єдина річ, яка стоїть між тобою і твоєю метою — це маячня, яку ти собі вигадуєш, чому ти не можеш її досягти.»</p>
+                <footer class="quote-card__footer">— Джордан Белфорт (Вовк з Волл-стріт)</footer>
+            </blockquote>
+
+            <blockquote class="quote-card">
+                <p class="quote-card__text">«Будь-який дурень може написати код, який зрозуміє комп'ютер. Хороші програмісти пишуть код, який можуть зрозуміти люди.»</p>
+                <footer class="quote-card__footer">— Мартін Фаулер</footer>
+            </blockquote>
+
+            <blockquote class="quote-card">
+                <p class="quote-card__text">«Спочатку виріши проблему. Потім напиши код.»</p>
+                <footer class="quote-card__footer">— Джон Джонсон</footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- 8. НАВИЧКИ -->
+    <section id="skills">
+        <h2>Навички (Skills)</h2>
+        <div class="skills-wrapper">
+            <fieldset class="skills-block">
+                <legend class="skills-block__legend">Hard Skills</legend>
+
+                <label for="csharp-skill">C# / .NET</label>
+                <progress id="csharp-skill" value="85" max="100">85%</progress>
+
+                <label for="cpp-skill">C++</label>
+                <progress id="cpp-skill" value="80" max="100">80%</progress>
+
+                <label for="web-skill">HTML5 / CSS3 / Web</label>
+                <progress id="web-skill" value="85" max="100">85%</progress>
+            </fieldset>
+
+            <fieldset class="skills-block">
+                <legend class="skills-block__legend">Soft Skills</legend>
+
+                <label for="analytical-skill">Аналітичне мислення</label>
+                <progress id="analytical-skill" value="90" max="100">90%</progress>
+
+                <label for="problem-solving-skill">Розв'язання складних задач</label>
+                <progress id="problem-solving-skill" value="85" max="100">85%</progress>
+
+                <label for="teamwork-skill">Командна робота та тайм-менеджмент</label>
+                <progress id="teamwork-skill" value="80" max="100">80%</progress>
+            </fieldset>
+        </div>
+    </section>
+
+    <!-- 9. МОВИ (ДОДАНИЙ РОЗДІЛ ДЛЯ 15+) -->
+    <!-- 9. МОВИ -->
+    <section id="languages">
+        <h2>Володіння мовами</h2>
+        <ul class="list-custom">
+            <li class="list-custom__item"><strong>Українська:</strong> Рідна (C2)</li>
+            <li class="list-custom__item"><strong>Англійська:</strong> Середній рівень (B1/B2)</li>
+            <li class="list-custom__item"><strong>Москальська:</strong> Намагаюсь забути 🙅‍♀️</li>
+        </ul>
+    </section>
+
+    <!-- 10. РОЗКЛАД -->
+    <section id="schedule">
+        <h2>Розклад занять в університеті</h2>
+        <div class="table-wrapper">
+            <table class="schedule-table">
+                <caption>Розклад занять на поточний семестр</caption>
+                <thead>
+                <tr>
+                    <th>День</th>
+                    <th>Пара (Час)</th>
+                    <th>Дисципліна, тип заняття та викладачі</th>
+                    <th>Аудиторія</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td rowspan="2">Понеділок</td>
+                    <td>I (08:40 – 09:55)</td>
+                    <td>Архітектура комп. с-м та мереж (лекція, проф. Рикалюк Р.Є.)</td>
+                    <td>ауд. 266</td>
+                </tr>
+                <tr>
+                    <td>II (10:10 – 11:30)</td>
+                    <td>Чисельні методи (лекція, проф. Хапко Р.С.)</td>
+                    <td>ауд. 266</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Вівторок</td>
+                    <td>I (08:40 – 09:55)</td>
+                    <td>(ДВ) Викор. с-м комп. матем. у наук. дослід. (лекція, доц. Борачок І.В.)</td>
+                    <td>ауд. 118а</td>
+                </tr>
+                <tr>
+                    <td>II (10:10 – 11:30)</td>
+                    <td>(ДВ) Викор. с-м комп. матем. у наук. дослід. (лаб., доц. Бешлей А.В., доц. Борачок І.В.)</td>
+                    <td>ауд. 118а</td>
+                </tr>
+                <tr>
+                    <td>III (11:50 – 13:10)</td>
+                    <td>(ДВ) Основи хмарних обчислень (лаб., ст. викл. Герасим Я.С., доц. Музичук Ю.А.)</td>
+                    <td>ауд. 261</td>
+                </tr>
+                <tr>
+                    <td>IV (13:30 – 14:50)</td>
+                    <td>(ДВ) Основи хмарних обчислень (лекція, ст. викл. Герасим Я.С.)</td>
+                    <td>ауд. 261</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Середа</td>
+                    <td>II (10:10 – 11:30)</td>
+                    <td>БД та ІС (лаб., доц. Вавричук В.Г., доц. Бешлей А.В.)</td>
+                    <td>ауд. 261</td>
+                </tr>
+                <tr>
+                    <td>III (11:50 – 13:10)</td>
+                    <td>(ДВ) Основи Web-програмування (лаб., лаб. Урсул І.З., ас. Заневич О.Б.)</td>
+                    <td>ауд. 118а</td>
+                </tr>
+                <tr>
+                    <td>IV (13:30 – 14:50)</td>
+                    <td>(ДВ) Основи Web-програмування (лекція, ас. Заневич О.Б.)</td>
+                    <td>ауд. 118а</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Четвер</td>
+                    <td>I (08:40 – 09:55)</td>
+                    <td>Бази даних та інформаційні системи (лекція, ст. викл. Костів В.Я.)</td>
+                    <td>ауд. 367</td>
+                </tr>
+                <tr>
+                    <td>II (10:10 – 11:30)</td>
+                    <td>БД та ІС (лаб., доц. Вавричук В.Г., доц. Бешлей А.В.)</td>
+                    <td>ауд. 261</td>
+                </tr>
+                <tr>
+                    <td>III (11:50 – 13:10)</td>
+                    <td>Архітектура комп. с-м та мереж (лаб., доц. Рикалюк Р.Є., ас. Куземик М.О.)</td>
+                    <td>ауд. 261</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">П'ятниця</td>
+                    <td>I (08:40 – 09:55)</td>
+                    <td>Програмне забезпечення II (лекція, доц. Пасічник Т.В.)</td>
+                    <td>ауд. 367</td>
+                </tr>
+                <tr>
+                    <td>II (10:10 – 11:30)</td>
+                    <td>Чисельні методи (лаб., доц. Ярмола Г.П., доц. Недашковська А.М.)</td>
+                    <td>ауд. 261</td>
+                </tr>
+                <tr>
+                    <td>III (11:50 – 13:10)</td>
+                    <td>Прогр. забезп. II (лаб., доц. Музичук Ю.А., ст. викл. Герасим Я.С.)</td>
+                    <td>ауд. 112</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- 11. КНИГИ -->
+    <section id="books" class="books-section">
+        <h2>Улюблені книги</h2>
+        <div class="cards-grid">
+            <article class="card">
+                <figure class="card__media">
+                    <img src="1984.jpeg" alt="1984" class="card__img">
+                </figure>
+                <div class="card__content">
+                    <span class="card__badge">Антиутопія</span>
+                    <h3>1984</h3>
+                    <p><em>Джордж Оруелл</em> — Глибока антиутопія про тоталітарну систему та маніпуляцію свідомістю.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__media">
+                    <img src="animal.jpeg" alt="Колгосп тварин" class="card__img">
+                </figure>
+                <div class="card__content">
+                    <span class="card__badge">Сатира</span>
+                    <h3>Колгосп тварин</h3>
+                    <p><em>Джордж Оруелл</em> — Алегорична повість-притча про природу влади та тоталітаризм.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__media">
+                    <img src="bigIdeas.jpg" alt="The Math Book" class="card__img">
+                </figure>
+                <div class="card__content">
+                    <span class="card__badge">Науково-популярна</span>
+                    <h3>The Math Book</h3>
+                    <p><em>DK Publishing</em> — Ілюстрована книга про найвеличніші математичні ідеї та відкриття в історії.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__media">
+                    <img src="crime.jpg" alt="Аферистка" class="card__img">
+                </figure>
+                <div class="card__content">
+                    <span class="card__badge">Детектив / Трилер</span>
+                    <h3>Аферистка</h3>
+                    <p>Захопливий сюжет про інтриги, маніпуляції та психологічні ігри.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- 12. ФІЛЬМИ -->
+    <section id="movies" class="movies-section">
+        <h2>Улюблені фільми та мультфільми</h2>
+        <div class="cards-grid">
+            <article class="card">
+                <figure class="card__media">
+                    <img src="The_Wolf_of_Wall_Street.jpg" alt="Вовк з Уолл-стріт" class="card__img">
+                </figure>
+                <div class="card__content">
+                    <span class="card__badge">Біографія / Драма</span>
+                    <h3>Вовк з Уолл-стріт (2013)</h3>
+                    <p>Оцінка: ⭐️ 8.2/10 — Динамічна історія про амбіції, фінансовий успіх та його зворотний бік.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__media">
+                    <img src="mister_and_missis_smit.jpg" alt="Містер і місіс Сміт" class="card__img">
+                </figure>
+                <div class="card__content">
+                    <span class="card__badge">Екшн / Комедія</span>
+                    <h3>Містер і місіс Сміт</h3>
+                    <p>Оцінка: ⭐️ 6.5/10 — Захоплива історія про подружжя найманих кілерів.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__media">
+                    <img src="war.jpg" alt="Машина війни" class="card__img">
+                </figure>
+                <div class="card__content">
+                    <span class="card__badge">Військова комедія</span>
+                    <h3>Машина війни</h3>
+                    <p>Сатиричний погляд на військові кампанії, командування та бюрократію.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__media">
+                    <img src="Spider_man.jpg" alt="Людина-павук" class="card__img">
+                </figure>
+                <div class="card__content">
+                    <span class="card__badge">Анімація / Екшн</span>
+                    <h3>Людина-павук: Навколо всесвіту</h3>
+                    <p>Оцінка: ⭐️ 8.4/10 — Шедевральна анімація про відповідальність та вибір власного шляху.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- 13. МУЗИКА -->
+    <section id="music" class="music-section">
+        <h2>Музика та вподобання</h2>
+        <div class="spotify-container">
+            <iframe
+                    style="border-radius:12px"
+                    src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M?utm_source=generator&theme=0"
+                    width="100%"
+                    height="152"
+                    frameBorder="0"
+                    allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy">
+            </iframe>
+        </div>
+
+        <div class="cards-grid" style="margin-top: 1.5rem;">
+            <article class="card">
+                <figure class="card__media">
+                    <img src="Indie.avif" alt="Інді та Рок" class="card__img" loading="lazy">
+                </figure>
+                <div class="card__content">
+                    <span class="card__badge">Жанр</span>
+                    <h3>🎸 Indie &amp; Alt-Rock</h3>
+                    <p>Енергійна та атмосферна музика, яка чудово підходить для фону під час написання коду або тренувань.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__media">
+                    <img src="Lofi.png" alt="Lo-Fi & Chill" class="card__img" loading="lazy">
+                </figure>
+                <div class="card__content">
+                    <span class="card__badge">Фокус</span>
+                    <h3>🎧 Lo-Fi &amp; Instrumental</h3>
+                    <p>Спокійні та ритмічні треки для максимальної концентрації під час вирішення складних задач чи читання.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__media">
+                    <img src="Modern_Hits.jfif" alt="Сучасна поп-музика" class="card__img" loading="lazy">
+                </figure>
+                <div class="card__content">
+                    <span class="card__badge">Настрій</span>
+                    <h3>🎶 Modern Hits</h3>
+                    <p>Динамічні треки для підняття настрою та відпочинку після продуктивного дня.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- 14. СПОРТ -->
+    <section id="sports" class="sports-section">
+        <h2>🏋️‍♂️ Спорт та фітнес</h2>
+        <div class="sports-hero-card">
+            <div class="sports-hero-card__overlay">
+                <div class="sports-hero-card__content">
+                    <span class="card__badge">Зал &amp; Активність</span>
+                    <h3>Дисципліна, витривалість та баланс</h3>
+                    <p>Регулярні силові тренування в залі, розтяжка для знятия напруги після кодування та активне кардіо для високого тонусу й продуктивності.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-wrapper" style="margin-top: 1.5rem;">
+            <fieldset class="skills-block">
+                <legend class="skills-block__legend">Фітнес-цілі та трекінг</legend>
+
+                <label for="workout-regularity">Регулярність тренувань (3-4 рази на тиждень)</label>
+                <progress id="workout-regularity" value="90" max="100">90%</progress>
+
+                <label for="strength-goals">Силові показники &amp; Прогресія ваг</label>
+                <progress id="strength-goals" value="80" max="100">80%</progress>
+
+                <label for="endurance">Витривалість та кардіо-форма</label>
+                <progress id="endurance" value="75" max="100">75%</progress>
+            </fieldset>
+        </div>
+
+        <div class="quotes-container" style="margin-top: 1.5rem;">
+            <blockquote class="quote-card">
+                <p class="quote-card__text">«Дисципліна — це вибір між тим, чого ти хочеш зараз, і тим, чого ти хочеш найбільше.»</p>
+                <footer class="quote-card__footer">— Спортивна мудрість</footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- 15. КОНТАКТИ -->
+    <section id="contacts">
+        <h2>Зв'язатися зі мною</h2>
+        <div class="contact-grid">
+            <div>
+                <p><strong>Місто:</strong> м. Львів</p>
+                <p><strong>Телефон:</strong> <a href="tel:+380972456495" class="footer__link">+38 (097) 245-64-95</a></p>
+                <p><strong>E-mail:</strong> <a href="mailto:khrystynalega5@gmail.com" class="footer__link">khrystynalega5@gmail.com</a></p>
+                <p><strong>Instagram:</strong> <a href="https://instagram.com/khriss_tyna" target="_blank" rel="noopener noreferrer" class="footer__link">@khriss_tyna</a></p>
+            </div>
+
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="user-name">Ім'я *</label>
+                    <input type="text" id="user-name" name="name" class="form-group__input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="user-email">E-mail *</label>
+                    <input type="email" id="user-email" name="email" class="form-group__input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="user-phone">Телефон *</label>
+                    <input type="tel" id="user-phone" name="phone" class="form-group__input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Тема звернення *</label>
+                    <select id="subject" name="subject" class="form-group__select" required>
+                        <option value="">Оберіть тему...</option>
+                        <option value="general">Загальне питання</option>
+                        <option value="project">Співпраця / Проєкт</option>
+                        <option value="study">Питання щодо навчання</option>
+                        <option value="other">Інше</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Повідомлення *</label>
+                    <textarea id="message" name="message" rows="4" class="form-group__textarea" required></textarea>
+                </div>
+
+                <div class="form-group" style="flex-direction: row; align-items: center; gap: 0.5rem;">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent" style="font-size: 0.85rem;">Я даю згоду на обробку моїх персональних даних *</label>
+                </div>
+
+                <button type="submit" class="submit-btn">Надіслати повідомлення</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer__container">
+        <p>&copy; 2026 Христина Лега. Всі права захищено.</p>
+        <p>
+            <a href="https://instagram.com/khriss_tyna" target="_blank" rel="noopener noreferrer" class="footer__link">Instagram</a> |
+            <a href="mailto:khrystynalega5@gmail.com" class="footer__link">Gmail</a>
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>
