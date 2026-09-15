@@ -78,3 +78,27 @@
    * Формування переліку перевірок для доступності (WCAG 2.1) та Lighthouse.
 3. **Документування:**
    * Структурування файлу `README.md` та допомога в розрахунку показників контрастності кольорів.
+
+---
+
+## 🛠 Використані технології та структура
+
+* **HTML5:** Семантична верстка (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`, `<picture>`, `<table>`).
+* **CSS3:** Flexbox, CSS Grid, CSS Custom Properties (змінні), медіа-запити (`@media`), BEM-неймінг.
+* **Інструменти:** Git, GitHub Pages, WebStorm, W3C Markup Validation Service, Chrome DevTools (Lighthouse).
+
+### Структура проєкту
+```text
+.
+├── css/
+│   └── style.css
+├── img/
+│   ├── ... (зображення проєкту)
+│   └── screenshots/
+│       ├── mobile.png
+│       ├── tablet.png
+│       ├── desktop.png
+│       ├── w3c-validator.png
+│       └── lighthouse.png
+├── index.html
+└── README.md
