@@ -2,7 +2,7 @@
 
 Персональний сайт-портфоліо студентки 3-го курсу спеціальності «Прикладна математика». Проєкт виконаний суто на чистому HTML5 та CSS3 без використання JavaScript та сторонніх CSS-фреймворків.
 
-🔗 **Live Demo (GitHub Pages):** [https://your-username.github.io/your-repo-name/](https://your-username.github.io/your-repo-name/)
+🔗 **Live Demo (GitHub Pages):** [https://khrystynalega5-web.github.io/My_portfolio/](https://khrystynalega5-web.github.io/My_portfolio/))
 
 ---
 
@@ -102,3 +102,12 @@
 │       └── lighthouse.png
 ├── index.html
 └── README.md
+
+## 👤 Автор
+
+* **Студентка:** Христина Лега
+* **Спеціальність:** Прикладна математика (3-й курс)
+* **Навчальний заклад:** Львівський національний університет імені Івана Франка
+
+---
+*Проєкт розроблено в навчальних цілях (2026).*
