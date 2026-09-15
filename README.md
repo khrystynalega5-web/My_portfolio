@@ -47,3 +47,19 @@
 * **Оптимізація ресурсів:**
   * Сумарний розмір усіх зображень у папці `img/` становить до 3 МБ.
   * Зображення стиснуті та оптимізовані за допомогою сучасних форматів WebP/JPG.
+
+---
+
+## 🖼 Скриншоти макетів та звітів якості
+
+### Адаптивний дизайн
+| Mobile | Tablet | Desktop |
+| :---: | :---: | :---: |
+| `![Mobile Layout](img/screenshots/mobile.png)` | `![Tablet Layout](img/screenshots/tablet.png)` | `![Desktop Layout](img/screenshots/desktop.png)` |
+
+### Звіти валидації та продуктивності
+* **W3C HTML Validator:** Код пройшов перевірку без помилок та критичних зауважень (`![W3C Status](img/screenshots/w3c-validator.png)`).
+* **Lighthouse Audit (Mobile Mode):**
+  * **Accessibility:** $\ge$ 90/100
+  * **Best Practices:** $\ge$ 90/100
+  * `![Lighthouse Report](img/screenshots/lighthouse.png)`
